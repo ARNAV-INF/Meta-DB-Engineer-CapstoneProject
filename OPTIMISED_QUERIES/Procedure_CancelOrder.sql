@@ -7,4 +7,5 @@ delete from orders where OrderID = ID;
 select concat('Order ',ID,' is deleted') as "Confirmation";
 END
 //
+DELIMITER ;
 call CancelOrder(5);
